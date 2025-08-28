@@ -22,8 +22,8 @@ pip install -r pyproject.toml
 ## Llama3 程式碼
 -  [`Llama3中文`](https://github.com/evelyn-2518/GPT2/blob/main/llama3.py)
 ## Gemini 2.5程式碼
--  先[`申請API`](https://aistudio.google.com/apikey)並複製
--  避免將API放在公開網頁，將其存在系統環境變數
+   先[`申請API`](https://aistudio.google.com/apikey)並複製
+   避免將API放在公開網頁，將其存在系統環境變數
 -  ```bash
    export GEMINI_API_KEY="你的API密鑰"
    ```
