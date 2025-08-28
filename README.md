@@ -49,5 +49,5 @@ pip install -r pyproject.toml
    ```
 -  transformers >= 4.38.x
 -  bitsandbytes >= 0.42.x
-   確保兩者版本匹配，否則 BitsAndBytesConfig 會缺少 get_loading_attributes 方法。
+確保兩者版本匹配，否則 BitsAndBytesConfig 會缺少 get_loading_attributes 方法。
 -  [`Qwen`](https://github.com/evelyn-2518/GPT2/blob/main/Qwen.py)
