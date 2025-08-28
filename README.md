@@ -2,7 +2,7 @@
 ## README
 -  [`README`](https://github.com/evelyn-2518/GPT2/blob/main/readme.md) 
 ## GPT2 程式碼
--  [`中研院`](https://github.com/evelyn-2518/GPT2/blob/main/中研院GPT2.py) 
+-  [`中研院`](https://github.com/evelyn-2518/GPT2/blob/main/中研院.py) 
 -  [`社群風格`](https://github.com/evelyn-2518/GPT2/blob/main/社群.py)
 ## GPT-2操作心得
 -  [`心得+更動`](https://github.com/evelyn-2518/GPT2/blob/main/心得.pdf) 
