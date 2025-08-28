@@ -9,6 +9,6 @@
 ## Llama3 程式碼
 -  [`Llama3中文`](https://github.com/evelyn-2518/GPT2/blob/main/llama3.py)
 ## Gemini 2.5程式碼
--  [`Gemini 2.5`](https://github.com/evelyn-2518/GPT2/blob/main/gemini2-5.py)
+-  [`Gemini 2.5`](https://github.com/evelyn-2518/GPT2/blob/main/genimi2-5.py)
 ## Qwen程式碼
 -  [`Claude Sonnet 4`](https://github.com/evelyn-2518/GPT2/blob/main/Qwen.py)
