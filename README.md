@@ -51,3 +51,9 @@ pip install -r pyproject.toml
 <br> transformers >= 4.38.x
 <br> bitsandbytes >= 0.42.x </br>
 -  [`Qwen`](https://github.com/evelyn-2518/GPT2/blob/main/Qwen.py)
+##除GPT2外預期實作結果
+| 模型 | 模型版本/大小 | 中文表現 | 回答能力 | 生成多樣性 | 使用難易度 |
+|------|---------------|----------|----------------|------------|------------|
+| LLaMA3 | 7B | 中文理解中等偏上，對長文有時斷句不佳 | 適合邏輯問答 | 生成句子自然，但創意有限 | 中等，需要 Transformers / HF hub |
+| Gemini 2.5 | 約 10B | 中文能力強，對日常對話、短文生成流暢 | 常識與生活問題回答較佳 | 高創意，適合聊天、詩詞、故事 | 容易使用，官方 API 支援 Python |
+| Qwen 1.8B Chat | 1.8B | 中文理解不錯，對專業問題表現穩定 | 推理與邏輯能力優秀，14B 版本更強 | 生成較多樣，適合技術或知識問答 | 中等，需要 HF Transformers，量化可降低 GPU 使用 |
