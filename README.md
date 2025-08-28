@@ -51,7 +51,8 @@ pip install -r pyproject.toml
 <br> transformers >= 4.38.x
 <br> bitsandbytes >= 0.42.x </br>
 -  [`Qwen`](https://github.com/evelyn-2518/GPT2/blob/main/Qwen.py)
-##除GPT2外預期實作結果
+## 除GPT2外預期實作結果
+
 | 模型 | 模型版本/大小 | 中文表現 | 回答能力 | 生成多樣性 | 使用難易度 |
 |------|---------------|----------|----------------|------------|------------|
 | LLaMA3 | 7B | 中文理解中等偏上，對長文有時斷句不佳 | 適合邏輯問答 | 生成句子自然，但創意有限 | 中等，需要 Transformers / HF hub |
