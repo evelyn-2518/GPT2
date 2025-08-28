@@ -11,4 +11,4 @@
 ## Gemini 2.5程式碼
 -  [`Gemini 2.5`](https://github.com/evelyn-2518/GPT2/blob/main/genimi2-5.py)
 ## Qwen程式碼
--  [`Claude Sonnet 4`](https://github.com/evelyn-2518/GPT2/blob/main/Qwen.py)
+-  [`Qwen`](https://github.com/evelyn-2518/GPT2/blob/main/Qwen.py)
