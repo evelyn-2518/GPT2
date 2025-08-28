@@ -27,7 +27,7 @@ pip install -r pyproject.toml
 -  ```bash
    export GEMINI_API_KEY="你的API密鑰"
    ```
--  要使用時讀取:
+   要使用時讀取:
    在程式前端加上
    ```python
    import os
