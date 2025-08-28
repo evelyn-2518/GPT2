@@ -41,6 +41,6 @@ pip install -r pyproject.toml
    genai.configure(api_key=api_key)
    ```
    以取用API
--  [`Gemini 2.5`](https://github.com/evelyn-2518/GPT2/blob/main/genimi2-5.py)
+-  [`Gemini 2.5`](https://github.com/evelyn-2518/GPT2/blob/main/genimi2-5.py)程式碼
 ## Qwen程式碼
 -  [`Qwen`](https://github.com/evelyn-2518/GPT2/blob/main/Qwen.py)
