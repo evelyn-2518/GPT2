@@ -43,4 +43,11 @@ pip install -r pyproject.toml
    以取用API
 -  [`Gemini 2.5`](https://github.com/evelyn-2518/GPT2/blob/main/genimi2-5.py)程式碼
 ## Qwen程式碼
+   執行前先升級套件
+   ```bash
+   pip install --upgrade transformers bitsandbytes accelerate
+   ```
+   transformers >= 4.38.x
+   bitsandbytes >= 0.42.x
+   確保兩者版本匹配，否則 BitsAndBytesConfig 會缺少 get_loading_attributes 方法。
 -  [`Qwen`](https://github.com/evelyn-2518/GPT2/blob/main/Qwen.py)
