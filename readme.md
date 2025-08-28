@@ -1,8 +1,8 @@
-# GPT-2中文補全實作
+# GPT-2中文補全
 ## Environment
-- Python
-- CUDA
--  
+- Python 3.10
+- CUDA 12.4
+- Ubuntu 22.04 
 ## Requirements
--  [`Requirements`](https://github.com/evelyn-2518/GPT2/blob/main/requirements.txt) 
+-  [`Requirements`](https://github.com/evelyn-2518/GPT2/blob/main/pyproject.toml) 
 ## 開始
