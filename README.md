@@ -22,6 +22,7 @@ pip install -r pyproject.toml
 ## Llama3 程式碼
 -  [`Llama3中文`](https://github.com/evelyn-2518/GPT2/blob/main/llama3.py)
 ## Gemini 2.5程式碼
+-  [`申請API`](https://aistudio.google.com/apikey)
 -  [`Gemini 2.5`](https://github.com/evelyn-2518/GPT2/blob/main/genimi2-5.py)
 ## Qwen程式碼
 -  [`Qwen`](https://github.com/evelyn-2518/GPT2/blob/main/Qwen.py)
