@@ -28,7 +28,7 @@ pip install -r pyproject.toml
    export GEMINI_API_KEY="你的API密鑰"
    ```
 -  要使用時讀取:
--  在程式前端加上
+   在程式前端加上
    ```python
    import os
    import google.generativeai as genai
@@ -40,7 +40,7 @@ pip install -r pyproject.toml
    # 設定 API key
    genai.configure(api_key=api_key)
    ```
-- 以取用API
+   以取用API
 -  [`Gemini 2.5`](https://github.com/evelyn-2518/GPT2/blob/main/genimi2-5.py)
 ## Qwen程式碼
 -  [`Qwen`](https://github.com/evelyn-2518/GPT2/blob/main/Qwen.py)
