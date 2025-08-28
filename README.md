@@ -48,6 +48,6 @@ pip install -r pyproject.toml
    pip install --upgrade transformers bitsandbytes accelerate
    ```
 確保兩者版本匹配，否則 BitsAndBytesConfig 會缺少 get_loading_attributes 方法。
--  transformers >= 4.38.x
--  bitsandbytes >= 0.42.x，
+<br> transformers >= 4.38.x
+<br> bitsandbytes >= 0.42.x </br>
 -  [`Qwen`](https://github.com/evelyn-2518/GPT2/blob/main/Qwen.py)
