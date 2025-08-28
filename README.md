@@ -22,7 +22,25 @@ pip install -r pyproject.toml
 ## Llama3 程式碼
 -  [`Llama3中文`](https://github.com/evelyn-2518/GPT2/blob/main/llama3.py)
 ## Gemini 2.5程式碼
--  [`申請API`](https://aistudio.google.com/apikey)
+-  先[`申請API`](https://aistudio.google.com/apikey)並複製
+-  避免將API放在公開網頁，將其存在系統環境變數
+-  ```bash
+   export GEMINI_API_KEY="你的API密鑰"
+   ```
+-  要使用時讀取:
+-  在程式前端加上
+   ```python
+   import os
+   import google.generativeai as genai
+   
+   # 從環境變數讀取 API key
+   api_key = os.environ.get("GEMINI_API_KEY")
+   if not api_key:
+       raise ValueError("請先在系統設定 GEMINI_API_KEY 環境變數")
+   # 設定 API key
+   genai.configure(api_key=api_key)
+   ```
+- 以取用API
 -  [`Gemini 2.5`](https://github.com/evelyn-2518/GPT2/blob/main/genimi2-5.py)
 ## Qwen程式碼
 -  [`Qwen`](https://github.com/evelyn-2518/GPT2/blob/main/Qwen.py)
