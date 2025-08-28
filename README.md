@@ -12,8 +12,8 @@ git clone https://github.com/evelyn-2518/GPT2.git
 cd GPT2
 
 # 安裝所需套件
-pip install -r pyproject.toml```
-
+pip install -r pyproject.toml
+```
 ## GPT2 程式碼
 -  [`中研院`](https://github.com/evelyn-2518/GPT2/blob/main/中研院.py) 
 -  [`社群風格`](https://github.com/evelyn-2518/GPT2/blob/main/社群.py)
