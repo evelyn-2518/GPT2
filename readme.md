@@ -6,6 +6,10 @@
 ## Requirements
 -  [`pyproject`](https://github.com/evelyn-2518/GPT2/blob/main/pyproject.toml) 
 ## 開始
-<pre>```bash git clone https://github.com/evelyn-2518/GPT2/edit/main/readme.md
-cd readme.md
-pip install -r pyproject.toml ```</pre>
+```bash
+# 從 GitHub 複製專案
+git clone https://github.com/evelyn-2518/GPT2.git
+cd GPT2
+
+# 安裝所需套件
+pip install -r pyproject.toml
